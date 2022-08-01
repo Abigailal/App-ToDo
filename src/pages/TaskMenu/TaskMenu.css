@@ -1,0 +1,11 @@
+header {
+    background-color: var(--color-blue);
+    border-radius: 10px;
+    height: auto;
+}
+main {
+    background-color: var(--color-blue);
+    border-radius: 10px;
+    height: 750px;
+    overflow-y: scroll;
+}

@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --color-violet: #7C3E66;
+    --color-beige: #F2EBE9;
+    --color-sky: #A5BECC;
+    --color-blue: #243A73;
+    --color-white: white;
+    --color-black: black;
+    --size-icons: 1.6em;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#root {
+    width: 500px;
+    height: 100vh;
+}

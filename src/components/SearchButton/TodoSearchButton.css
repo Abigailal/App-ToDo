@@ -1,0 +1,8 @@
+.TodoSearchButton{
+    border: none;
+    background-color: var(--color-blue);
+    height: 45px;
+    width: 45px;
+    font-size: var(--size-icons);
+    color: var(--color-sky);
+}

@@ -1,0 +1,34 @@
+.TodoItem {
+    background-color: var(--color-beige);
+    position: relative;
+    color: var(--color-violet);
+    border-radius: 10px;
+    box-shadow: 10px 7px 10px 5px rgba(0,0,0,0.75);
+  }
+  .TodoItem-p {
+    width: calc(100% - 120px);
+    font-size: 18px;
+  }
+  .TodoItem-p--complete {text-decoration: line-through;}
+  .Icon {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+  }
+  .Icon-check {
+    position: absolute;
+    left: 12px;
+  }
+  .Icon-check--active {color: #4caf50;}
+  .Icon-delete {
+    position: absolute;
+    right: 15px;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+  }
+  .Icon-delete:hover {color: red;}
+  .icon-empty, .icon-error {
+    font-size: 5em;
+    color: var(--color-beige);
+  }

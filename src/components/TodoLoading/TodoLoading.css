@@ -1,0 +1,12 @@
+
+.TodoItem-loading{
+    background-color: var(--color-beige);
+    position: relative;
+    color: var(--color-violet);
+    border-radius: 10px;
+    box-shadow: 10px 7px 10px 5px rgba(0,0,0,0.75);
+    height: 70px;
+  }
+.icon-loading{
+    font-size: 1.5em;
+  }
